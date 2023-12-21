@@ -1,0 +1,12 @@
+Source: ros-humble-bcr-bot
+Section: misc
+Priority: optional
+Maintainer: Gaurav Gupta <gaurav@blackcoffeerobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-bcr-bot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ament-index-python, ros-humble-launch, ros-humble-launch-ros, ros-humble-robot-state-publisher, ros-humble-xacro, ros-humble-ros-workspace
+Description: bcr_bot
