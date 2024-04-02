@@ -1,0 +1,8 @@
+ros-humble-bcr-bot (1.0.2-1bullseye) bullseye; urgency=high
+
+  * Setting Gazebo resource paths through launch files
+  * Modified launch files to dynamically spawn bcr_bot
+
+ -- Gaurav Gupta <gaurav@blackcoffeerobotics.com>  Mon, 01 Apr 2024 18:30:00 -0000
+
+
